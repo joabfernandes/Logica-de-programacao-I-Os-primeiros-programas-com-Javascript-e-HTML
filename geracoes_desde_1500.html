@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    var anoInicial = 1500;
+    var anoAtual = 2022;
+    var periodoAnos = anoAtual - anoInicial;
+    var geracoesPeriodo = periodoAnos/28;
+
+    mostra("Já se passaram " + Math.round(geracoesPeriodo) + " desde o descobrimento do Brasil em 1500.");
+    pulaLinha();
+</script>
